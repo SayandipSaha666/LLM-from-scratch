@@ -1,12 +1,15 @@
-# LLM-from-scratch
-This project implements a GPT-2-style transformer language model entirely from the ground up using PyTorch. It covers every stage — from data preprocessing and tokenization to building the multi-head attention mechanism, transformer blocks, and training loop — without relying on high-level libraries. The goal is to deeply understand how large language models like GPT-2 work internally, including:
+# Building GPT-2 from Scratch
 
-Implementing Byte Pair Encoding (BPE) tokenization
+This project implements a GPT-2–style transformer language model entirely from the ground up using PyTorch. It is built step by step — from data preprocessing and tokenization to constructing the multi-head attention mechanism, transformer blocks, and training loop — without relying on high-level libraries.
 
-Designing positional embeddings and multi-head self-attention
+## Key Features
+- **Byte Pair Encoding (BPE)** tokenization  
+- **Positional embeddings** and **multi-head self-attention**  
+- **Transformer decoder blocks** stacked to form the model  
+- **Training pipeline** for text datasets  
+- **Text generation** with autoregressive decoding
 
-Stacking transformer decoder blocks to form the model
+## Purpose
+The goal of this project is to gain a deep understanding of how large language models like GPT-2 work internally. It serves as an educational resource for exploring the foundations of modern transformer-based language models.
 
-Training on text datasets and generating coherent text samples
-
-This repository serves as an educational resource for anyone who wants to explore the inner workings of modern language models at the code level.
+---
