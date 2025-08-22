@@ -41,9 +41,9 @@ GPT_CONFIG_124M = {
     "drop_rate"  : 0.5,
     "qkv_bias"   : False
 }
+```
 
-## Training Progress
+<h2>Training Progress</h2>
+<p>The following graph shows how the loss decreases over training epochs:</p>
+<img src="loss_curve.png" alt="Training Loss Curve" width="500"/>
 
-The following graph shows how the loss decreases over training epochs:
-
-![Training Loss Curve](assets/loss_curve.png)
