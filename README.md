@@ -42,6 +42,12 @@ GPT_CONFIG_124M = {
     "qkv_bias"   : False
 }
 ```
+## References
+
+- [Language Models are Unsupervised Multitask Learners (GPT-2 paper)](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) – Radford et al., OpenAI (2019)  
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) – Vaswani et al. (2017)  
+- [HuggingFace Tokenizers](https://github.com/huggingface/tokenizers) and [Transformers](https://github.com/huggingface/transformers) libraries for validation  
+
 
 <h2>Training Progress</h2>
 <p>The following graph shows how the loss decreases over training epochs:</p>
